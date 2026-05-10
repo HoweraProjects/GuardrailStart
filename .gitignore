@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# Virtualenvs
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pyre/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Reports — generated demo / live runs.
+# We commit a curated set under pentest_reports/ for the case study,
+# but anything under demo/ or with a fresh timestamp is transient.
+pentest_reports/demo/
+pentest_reports/**/_*.json
+pentest_reports/**/_*.md
+
+# OS noise
+Thumbs.db
+ehthumbs.db
